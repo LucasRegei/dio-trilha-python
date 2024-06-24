@@ -46,7 +46,7 @@ while True:
         else:
             print("Não foram realizadas operações")
         print(f"\nSaldo: R$ {saldo:.2f}")
-        print("========================================")
+        print("=".center(40, "="))
     elif opcao == ("q"):
         break
     else:
